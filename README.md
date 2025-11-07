@@ -7,9 +7,9 @@ Where in the first model ( [Breast_Cancer_Diagnosis](https://github.com/waliddj/
 # Dataset
 ---
 
-The dataset used for this model is the [Breast cancer dataset](https://www.kaggle.com/datasets/djaidwalid/kidney-cancer-dataset/data)
+The dataset used for this model is the [Breast cancer dataset](https://www.kaggle.com/datasets/djaidwalid/)
 
-*Citation:*: https://www.kaggle.com/datasets/djaidwalid/kidney-cancer-dataset/data
+*Citation:*: https://www.kaggle.com/datasets/djaidwalid/
 
 ---
 ## Dataset structure:

@@ -1,5 +1,8 @@
 # Breast_Cancer_Diagnosis_V2
-A model for breast cancer diagnosis (using transfer learning: Feater extractinn) using [TensroFlow](https://www.tensorflow.org/api_docs/python/tf/keras/applications/EfficientNetV2B0)'s `EfficientNetV2B0` model.
+Am enhanced model for breast cancer diagnosis (using transfer learning: Feature extractinn) using [TensroFlow](https://www.tensorflow.org/api_docs/python/tf/keras/applications/EfficientNetV2B0)'s `EfficientNetV2B0` model.
+
+Where in the first model ( [Breast_Cancer_Diagnosis](https://github.com/waliddj/Breast_Cancer_Diagnosis) ) a convolutional neuron network was built from scratch. Breast_Cancer_Diagnosis_V2 model is based on
+[TensroFlow](https://www.tensorflow.org/api_docs/python/tf/keras/applications/EfficientNetV2B0)'s `EfficientNetV2B0` model.
 
 # Dataset
 ---
@@ -178,3 +181,19 @@ history_1 = model.fit(train_data,
 ```python
 model.save("C:/Users/walid/Desktop/Breast_Cancer_2.keras")
 ```
+# [`Breast_Cancer_Diagnosis`](https://github.com/waliddj/Breast_Cancer_Diagnosis) vs `Breast_Cancer_Diagnosis_V2`
+
+## Loss&Accuracy
+
+|Model|Accuracy|Loss|
+|--|--|--|
+|`Breast_Cancer_Diagnosis`|94.20% |0.161 |
+|`Breast_Cancer_Diagnosis_V2`|**99.31%** |**0.0272**|
+
+> the `Breast_Cancer_Diagnosis_V2` 5% more accurate. Moreover, its loss function is 4 times lower.
+
+## Confusion matrix
+<img width="1349" height="549" alt="cm1_cm2" src="https://github.com/user-attachments/assets/149618bc-2527-4a5c-a1b8-8308b9d8e1b5" />
+
+> The confusion matrix proves that again `Breast_Cancer_Diagnosis_V2` is more accurate than `Breast_Cancer_Diagnosis`.
+

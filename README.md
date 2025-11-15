@@ -1,5 +1,5 @@
 # Breast_Cancer_Diagnosis_V2
-Am enhanced model for breast cancer diagnosis (using transfer learning: Feature extractinn) using [TensroFlow](https://www.tensorflow.org/api_docs/python/tf/keras/applications/EfficientNetV2B0)'s `EfficientNetV2B0` model.
+An enhanced model for breast cancer diagnosis (using transfer learning: Feature extractinn) using [TensroFlow](https://www.tensorflow.org/api_docs/python/tf/keras/applications/EfficientNetV2B0)'s `EfficientNetV2B0` model.
 
 Where in the first model ( [Breast_Cancer_Diagnosis](https://github.com/waliddj/Breast_Cancer_Diagnosis) ) a convolutional neuron network was built from scratch. Breast_Cancer_Diagnosis_V2 model is based on
 [TensroFlow](https://www.tensorflow.org/api_docs/python/tf/keras/applications/EfficientNetV2B0)'s `EfficientNetV2B0` model.
